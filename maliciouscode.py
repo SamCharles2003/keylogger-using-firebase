@@ -14,7 +14,7 @@ firebase_cred = {"""Enter your Firebase Credentials"""}
 
 
 cred = credentials.Certificate(firebase_cred)
-firebase_admin.initialize_app(cred, {"""Enter your Database URL"""})
+firebase_admin.initialize_app(cred, {'databaseURL': 'Enter your Database URL'})
 
 
 
