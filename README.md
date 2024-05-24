@@ -34,7 +34,7 @@ Open your terminal before performing the following steps
 
 ## Modification in code
 1. Open `Maliciouscode.py` using any code editors(Pycharm,VScode). Find `firebase_cred` (13th Line) variable and paste your fire credentials inside those `Curly Braces {}`
-2. Now find `firebase_admin.initialize_app(cred, {'databaseURL': ''})` (29th line). Now paste your database link inside those single quotes.
+2. Now find `firebase_admin.initialize_app(cred, {'databaseURL': ''})` (17th line). Now paste your database link inside those single quotes.
 3. Now Save the code and initialization in completed here.
 
 # Working 
